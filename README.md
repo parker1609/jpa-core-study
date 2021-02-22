@@ -1,10 +1,8 @@
 # JPA 공부
 ## 구성
----
 - ch02 ~ ch12 + clean.sh : [자바 ORM 표준 JPA 프로그래밍 - 책 예제](https://github.com/holyeye/jpabook)
 
 ## 삽질
----
 ### H2 데이터베이스 설치
 H2 데이터베이스를 설치하고 바로 JDBC URL: `jdbc:h2:tcp://localhost/~/test` 로 접속하려고 하면 여러가지 
 에러를 맛볼 수 있다.
@@ -85,3 +83,6 @@ CREATE TABLE MEMBER (
 
 - 콘솔 화면에 보이는 SQL 문 입력창에 위를 입력한 후, 실행을 클릭한다.
 - 실행 후, 좌측 섹션에 정상적으로 MEMBER 테이블이 생성됐는지 확인.
+
+#### 참고자료
+-  <https://hothoony.tistory.com/890>
